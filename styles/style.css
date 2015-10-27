@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.calculator {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 27.49666%;
+  margin-left: 34.11922%;
+  background-color: #5DB362;
+  font-size: 1.75em;
+  font-family: 'Open Sans', sans-serif;
+  color: white; }
+  .calculator:last-child {
+    margin-right: 0; }
+
+.inputBox {
+  height: 80px; }
+  .inputBox #clear {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 19.43277%;
+    padding: 2.35765%;
+    width: 25%;
+    margin: 0;
+    height: 100%;
+    background: #5DB362;
+    border: 1px solid #A6D4A8; }
+    .inputBox #clear:last-child {
+      margin-right: 0; }
+  .inputBox #output {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 73.14426%;
+    padding: 2.35765%;
+    width: 75%;
+    height: 100%;
+    background: #5DB362;
+    border: 1px solid #A6D4A8; }
+    .inputBox #output:last-child {
+      margin-right: 0; }
+
+#clear:focus, #output {
+  outline: none; }
+
+.numpad input {
+  background: #5DB362;
+  height: 80px;
+  float: left;
+  display: block;
+  margin-right: 7.42297%;
+  width: 19.43277%;
+  padding: 2.35765%;
+  width: 25%;
+  margin: 0;
+  border: 1px solid #A6D4A8; }
+  .numpad input:last-child {
+    margin-right: 0; }
+  .numpad input:nth-child(4n) {
+    margin-right: 0; }
+  .numpad input:nth-child(4n+1) {
+    clear: left; }
+.numpad input:focus {
+  outline: none; }
+
+#divide, #multiply, #subtract, #add {
+  background-color: #7DC180;
+  color: black; }
+
+#divide:hover, #multiply:hover, #subtract:hover, #add:hover {
+  color: white; }
+
+#clear:hover, #calculate:hover {
+  background-color: #7DC180; }
+
+/*# sourceMappingURL=style.css.map */
